@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Educación Fiscal Interactiva</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>  
+  <header>
+  <h1>🤍 Educación Fiscal Interactiva</h1>
+</div>  </header>
+
+  <main id="menuPrincipal">
+    <section id="mapa">
+      <h2 class="titulo-seccion">Contribuciones: Introducción</h2>
+      <div class="linea-tiempo">
+        <div class="nivel" id="nivel1" onclick="abrirNivel(1)">1</div>
+        <div class="nivel bloqueado" id="nivel2" onclick="abrirNivel(2)">2</div>
+        <div class="nivel bloqueado" id="nivel3" onclick="abrirNivel(3)">3</div>
+        <div class="nivel bloqueado" id="nivel4" onclick="abrirNivel(4)">4</div>
+      </div>
+
+      <h2 class="titulo-seccion">Contribuciones: Clasificación</h2>
+      <div class="linea-tiempo">
+        <div class="nivel bloqueado" id="nivel5" onclick="abrirNivel(5)">5</div>
+        <div class="nivel bloqueado" id="nivel6" onclick="abrirNivel(6)">6</div>
+        <div class="nivel bloqueado" id="nivel7" onclick="abrirNivel(7)">7</div>
+        <div class="nivel bloqueado" id="nivel8" onclick="abrirNivel(8)">8</div>
+      </div>
+
+      <h2 class="titulo-seccion">Información para cumplir con las obligaciones ante el SAT</h2>
+      <div class="linea-tiempo">
+        <div class="nivel bloqueado" id="nivel9" onclick="abrirNivel(9)">9</div>
+        <div class="nivel bloqueado" id="nivel10" onclick="abrirNivel(10)">10</div>
+        <div class="nivel bloqueado" id="nivel11" onclick="abrirNivel(11)">11</div>
+        <div class="nivel bloqueado" id="nivel12" onclick="abrirNivel(12)">12</div>
+      </div>
+    </section>
+    <img src="./imagen gen gen 2 2.png" class="imagen-niveles">
+  </main>
+
+
+  <!-- Lectura -->
+  <section id="pantallaLectura" class="oculto">
+    <h2 id="tituloLectura">Nivel 1 - Lectura</h2>
+    <p id="textoLectura">
+      Texto de prueba para el nivel seleccionado. Aquí irá el contenido de la lectura educativa sobre educación fiscal.
+    </p>
+    <button onclick="iniciarPreguntas()">Siguiente </button>
+    <button class="btnMenu" onclick="volverMenu()"> Volver al menú</button>
+  </section>
+
+  <!-- Preguntas -->
+  <section id="pantallaPreguntas" class="oculto">
+    <h2 id="tituloPreguntas">Preguntas del Nivel</h2>
+    <div id="preguntaActual"></div>
+    <p id="mensajeError"></p>
+    <button id="btnMenu" class="btnMenu oculto" onclick="volverMenu()"> Volver al menú</button>
+    <button id="btnSiguienteNivel" class="oculto" onclick="siguienteNivel()">Siguiente nivel </button>
+  </section>
+
+<!-- 🔹 Pantalla final -->
+<section id="pantallaFinal" class="oculto">
+  <div class="contenido-final">
+    <h2>¡Felicidades por completar Educación Fiscal Interactiva!</h2>
+    <p>Para saber más, escanea el siguiente código: </p>
+    <img src="./ku er.png" alt="Código QR" id="imagenFinal">
+    <br>
+    <button id="btnVolverMenuFinal" onclick="volverMenu()">Volver al menú principal</button>
+  </div>
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Panel lateral permanente -->
+  <div id="panelLateral">
+    <h2>Menú</h2>
+    <ul>
+      <li onclick="mostrarSeccion('quienes')">¿Quiénes somos?</li>
+      <li onclick="mostrarSeccion('temas')">Temas: Información</li>
+      <li onclick="mostrarSeccion('conoce')">Conoce más</li>
+    </ul>
+  </div>
+
+<!-- 🔹 Ventana para mostrar el contenido -->
+<div id="contenedorSeccion">
+  <div class="ventana">
+    <button class="cerrar" onclick="cerrarSeccion()">✖</button>
+    <div id="contenidoSeccion"></div>
+  </div>
+</div>
