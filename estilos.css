@@ -30,7 +30,7 @@ header h1 {
 main {
   background-color: rgb(255, 255, 255);
   border-radius: 12px;
-  margin: 40px auto;
+  margin:40px auto;
   padding: 30px;
   width: 85%;
   max-width: 900px;
@@ -219,6 +219,7 @@ button:hover {
 /* Panel lateral */
 #panelLateral {
   position: fixed;
+   pointer-events: none;
   top: 0;
   left: 0;
   width: 250px;
@@ -226,9 +227,12 @@ button:hover {
   background: #7097d100;
   color: white;
   padding: 20px;
-  box-shadow: 3px 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   transform: none; /* 🔹 Siempre visible */
+}
+#panelLateral ul {
+pointer-events: all;
 }
 
 #panelLateral h2 { /**/
@@ -315,10 +319,11 @@ button:hover {
 
 /* 🔹 Imagen decorativa en niveles */
 .imagen-niveles {
-  position: fixed;
-  bottom: 10%;
-  right: 200px;
-  width: 450px;      /* ajusta el tamaño si lo deseas */
+  position: absolute;
+  bottom: 0%;
+  top: 75%;
+  right: 5%;
+  width: calc(100% - 80%);      /* ajusta el tamaño si lo deseas */
   opacity: 0.85;     /* ligera transparencia */
   z-index: 900;      /* para que quede sobre el fondo */
   pointer-events: none; /* evita que bloquee clics en los niveles */
@@ -376,6 +381,7 @@ button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
+   pointer-events: none;
   opacity: 0.9;
 }
 
@@ -441,3 +447,30 @@ button:hover {
   background-color: #1E2E3C;
 }
 
+@media (min-width: 424px) {
+  .imagen-niveles {
+   top: calc(75% - 100% / 50);
+  }
+  #pantallaLectura{
+    margin: 120px auto;
+  }
+  #pantallaPreguntas{
+    margin: 120px auto;
+  }
+  main{
+    margin: 80px auto;
+  }
+  
+  
+  
+
+}
+@media (min-width: 766px) {
+  .imagen-niveles {
+    top: calc(75% - 100% / 890);
+  }
+  main{
+    margin: 140px auto;
+  }
+ 
+}

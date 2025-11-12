@@ -25,7 +25,7 @@ const preguntasPorNivel = {
          "Como el individuo que realiza cualquier actividad económica, el cual tiene derechos y obligaciones", 
          "es una entidad legal creada por la ley"],
          img: "./Diseno_sin_titulo_3.png",
-      correcta: 1,
+      correcta: 2,
       explicacionCorrecta: "✅ Es correcto, Una persona física, de acuerdo con el SAT, es el individuo miembro de una comunidad, con derechos y obligaciones, determinados por un ordenamiento jurídico.",
       explicacionIncorrecta: "❌ No es correcto, ya que esto hace referencia a una persona moral, quienes a diferencia de la persona fisica, estos no cuentan con una realidad material o corporal."
     }
