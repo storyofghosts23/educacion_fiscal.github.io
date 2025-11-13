@@ -63,7 +63,7 @@ const preguntasPorNivel = {
        opciones: ["Directos e indirectos, reales y personales y con fines fiscales y extrafiscales",
           "IVA, ISR e IEPS", 
           "Impuestos, aportaciones de seguridad social, contribuciones de mejoras y derechos"],
-          img: "./Diseno_sin_titulo_3.png",
+          img: "calculator mujer.png",
        correcta: 3, 
        explicacionCorrecta: "✅ Exacto, es fundamental porque es la principal fuente de ingresos del Estado para financiar los servicios públicos esenciales y promover el bienestar social y el desarrollo económico del país.",
        explicacionIncorrecta: "❌ No es correcto, porque su recaudación es la principal fuente de ingresos del Estado para financiar los servicios públicos esenciales y promover el bienestar social, no solo el individual."
@@ -75,7 +75,7 @@ const preguntasPorNivel = {
        opciones: ["Impuesto al Valor Agregado",
           "Impuesto Especial sobre Producción y Servicios", 
           "Impuesto Sobre la Renta"],
-          img: "./Diseno_sin_titulo_3.png",
+          img: "calculator mujer.png",
        correcta: 2, 
        explicacionCorrecta: "✅ Exacto, pues de conformidad con lo dispuesto en el artículo 1º de la Ley del IEPS, es el gravamen que se paga por la enajenación e importación de ciertos productos, tales como: gasolina, diésel, bebidas alcohólicas, cerveza, tabacos labrados, refrescos, comida chatarra, entre otros bienes, así como por la prestación de ciertos servicios.",
        explicacionIncorrecta: "❌ No es correcto, pues de conformidad con lo dispuesto en el artículo 1º de la Ley del IEPS, es el gravamen que se paga por la enajenación e importación de ciertos productos, tales como: gasolina, diésel, bebidas alcohólicas, cerveza, tabacos labrados, refrescos, comida chatarra, entre otros bienes, así como por la prestación de ciertos servicios."
@@ -87,7 +87,7 @@ const preguntasPorNivel = {
        opciones: ["Impuesto al Valor Agregado",
           "Impuesto predial", 
           "Impuesto sobre la renta"],
-          img: "./Diseno_sin_titulo_3.png",
+          img: "calculator mujer.png",
        correcta: 1, //respuesta correcta 
        explicacionCorrecta: "✅ Exacto, ya que el IVA se trata de un impuesto indirecto que se aplica sobre el consumo o goce de bienes o servicios; es decir, los contribuyentes no lo pagan directamente, sino que lo trasladan a un tercero, hasta llegar al consumidor final",
        explicacionIncorrecta: "❌ No es correcto, ya que que los impuestos indirectos son aquellos que son aplicados en gastos de producción y consumo"
@@ -99,7 +99,7 @@ const preguntasPorNivel = {
        opciones: ["15%",
           "17%", 
           "16%"],
-          img: "./Diseno_sin_titulo_3.png",
+          img: "calculator mujer.png",
        correcta: 3,  //respuesta correcta 
        explicacionCorrecta: "✅ Exacto, ya que la tasa de 16% se establece en el artículo 1° de la Ley del Impuesto al Valor Agregado ",
        explicacionIncorrecta: "❌ No es correcto, ya que la tasa de 16% se establece en el artículo 1° de la Ley del Impuesto al Valor Agregado "
@@ -111,7 +111,7 @@ const preguntasPorNivel = {
        opciones: ["Es una clave alfanumérica que identifica a cada contribuyente ante la autoridad fiscal",
           "Es un documento electrónico que sirve como comprobante oficial de transacciones como compras, ventas o servicios", 
           "Es un sistema de comunicación electrónico obligatorio entre el Servicio de Administración Tributaria (SAT) y los contribuyentes"],
-          img: "./Diseno_sin_titulo_3.png",
+          img: "./tipo feliz con estrellas al redeakdaod si.png",
        correcta: 1, //respuesta correcta  
        explicacionCorrecta: "✅ Exacto, ya que esta clave sirve para identificar a todas las personas que realizan una actividad económica y tienen que cumplir las obligaciones fiscales propias de la inscripción ",
        explicacionIncorrecta: "❌ No es correcto, ya que el RFC es una clave alfanumérica que sirve para identificar a todas las personas que realizan una actividad económica "
@@ -123,7 +123,7 @@ const preguntasPorNivel = {
        opciones: ["Únicamente en los casos en que no cuente con un local para realizar sus actividades o para el desempeño de ellas",
           "Cuando el contribuyente gane menos del salario mínimo general", 
           "Cuando el contribuyente así lo decida libremente para tener mayor privacidad"],
-          img: "./Diseno_sin_titulo_3.png",
+          img: "./tipo feliz con estrellas al redeakdaod si.png",
        correcta: 1, //respuesta correcta  
        explicacionCorrecta: "✅ Exacto, ya que de acuerdo con el artículo 10 en su fracción I, únicamente en los casos en que la persona física, que realice actividades señaladas en los incisos anteriores no cuente con un local, se considera como domicilio fiscal su casa habitación.",
        explicacionIncorrecta: "❌ No es correcto, ya que de acuerdo con el artículo 10 en su fracción I, únicamente en los casos en que la persona física, que realice actividades señaladas en los incisos anteriores no cuente con un local, se considera como domicilio fiscal su casa habitación."
@@ -135,7 +135,7 @@ const preguntasPorNivel = {
        opciones: ["El certificado tiene el propósito de validar el domicilio fiscal del contribuyente y debe ser expedido exclusivamente por el Servicio de Administración Tributaria (SAT)",
           "El propósito del certificado es confirmar el vínculo como firmante del contribuyente, y puede ser expedido por el SAT, la Secretaría de la Función Pública o la Secretaría de Economía", 
           "El propósito del certificado es servir como comprobante de pago de impuestos, y su expedición está a cargo del banco en el que el contribuyente tiene su cuenta"],
-          img: "./Diseno_sin_titulo_3.png",
+          img: "./tipo feliz con estrellas al redeakdaod si.png",
        correcta: 2 , //respuesta correcta  
        explicacionCorrecta: "✅ Exacto, ya que la e.firma debe ser expedida por el SAT o por una autoridad certificadora tal como lo es la Secretaría de la Función Pública y la Secretaría de Economía con el propósito de confirmar tu vínculo como firmante",
        explicacionIncorrecta: "❌ No es correcto, ya que la e.firma debe ser expedida por el SAT o por una autoridad certificadora tal como lo es la Secretaría de la Función Pública y la Secretaría de Economía con el propósito de confirmar tu vínculo como firmante "
@@ -147,7 +147,7 @@ const preguntasPorNivel = {
        opciones: ["RFC, nombre del contribuyente, situación sentimental, CURP y domicilio fiscal",
           "CURP, domicilio fiscal, RFC, nombre del contribuyente, escolaridad y régimen fiscal ", 
           "Régimen fiscal, obligaciones fiscals, RFC, CURP y domicilio fiscal "],
-          img: "./Diseno_sin_titulo_3.png",
+          img: "./tipo feliz con estrellas al redeakdaod si.png",
        correcta:3, //respuesta correcta   
        explicacionCorrecta: "✅ Exacto, ya que las características fiscales que incluye la constancia de situación fiscal son el RFC, el nombre completo del contribuyente, la CURP, el domicilio fiscal, el régimen fiscal y las obligaciones fiscales propias de la inscripción ",
        explicacionIncorrecta: "❌ No es correcto, ya que las características fiscales que incluye la constancia de situación fiscal son el RFC, el nombre completo del contribuyente, la CURP, el domicilio fiscal, el régimen fiscal y las obligaciones fiscales propias de la inscripción "
@@ -188,22 +188,22 @@ function abrirNivel(n) {
 
   // 🔹 Texto específico por nivel
   const textosLectura = {
-    1: "De acuerdo al Artículo 31, fracción IV de la Constitución Política de los Estados Unidos Mexicanos: 'Son obligaciones de los mexicanos: El contribuir para los gastos públicos, así de la Federación, como de los Estados, de la Ciudad de México y del Municipio en que residan, de la manera proporcional y equitativa que dispongan las leyes.' Es por ello que, como mexicanos debemos de cumplir con esta obligación, pero antes, debemos saber a que se refieren con 'contribución'." ,
-    2: "El SAT define a las personas física como un individuo que realiza cualquier actividad económica, el cual tiene derechos y obligaciones.  Por otro lado, una persona moral es el conjunto de personas físicas que se unen para la realización de un fin colectivo. Son empresas creadas por el derecho, no tienen una realidad material o corporal, sin embargo, la ley les otorga capacidad jurídica para tener derechos y obligaciones." ,
-    3: "De acuerdo al artículo 1° del Código Fiscal de la Federación, las personas físicas y las morales, están obligadas a contribuir para los gastos públicos conforme a las leyes fiscales respectivas. Las disposiciones de este Código se aplicarán en su defecto y sin perjuicio de lo dispuesto por los tratados internacionales de los que México sea parte. Sólo mediante ley podrá destinarse una contribución a un gasto público específico." ,
-    4: "De acuerdo a la Secretaría de Hacienda y Crédito Público (SHCP) los impuestos son uno de los medios principales por los que el gobierno obtiene ingresos; tienen gran importancia para la economía de nuestro país, ya que gracias a ellos se  puede invertir en aspectos prioritarios como la educación, la salud, la impartición de justicia y la seguridad, el combate a la pobreza y el impulso de sectores económicos que son fundamentales para el país.",
-    5: "El artículo 2° del Código Fiscal de la federación (CFF) establece que las contribuciones se clasifican en impuestos, aportaciones de seguridad social, contribuciones de mejoras y derechos. Los impuestos son las contribuciones que deben pagar las personas físicas y morales que se ubican en las situaciones consideradas por la ley como hechos imponibles, las aportaciones de seguridad social son las contribuciones establecidas en ley a las personas que se beneficien en forma especial por servicios de seguridad social proporcionados por el mismo Estado, asimismo, las contribuciones de mejoras son las establecidas en Ley a cargo de las personas físicas y morales que se beneficien de manera directa por obras públicas y, finalmente, los derechos son las contribuciones establecidas en Ley por el uso o aprovechamiento de los bienes del dominio público de la Nación, así como por recibir servicios que presta el Estado en sus funciones de derecho público.",
-    6: "La renta está constituida esencialmente por los ingresos que provienen del patrimonio personal o de las actividades económicas propias de las personas contribuyentes o la combinación de ambas. El ISR es un impuesto directo que se aplica sobre los ingresos obtenidos por las personas contribuyentes que implican un incremento en su patrimonio, ya sea por actividades lucrativas, trabajo o capital. Por otro lado, el IVA se trata de un impuesto indirecto que se aplica sobre el consumo o goce de bienes o servicios; es decir, los contribuyentes no lo pagan directamente, sino que lo trasladan a un tercero, hasta llegar al consumidor final. Ahora bien, de conformidad con lo dispuesto en el artículo 1º de la Ley del IEPS, el Impuesto Especial sobre Producción y Servicios es el gravamen que se paga por la enajenación e importación de ciertos productos, tales como: gasolina, diésel, bebidas alcohólicas, cerveza, tabacos labrados, refrescos, comida chatarra, entre otros bienes, así como por la prestación de ciertos servicios.",
-    7: "Los impuestos se clasifican en: directos e indirectos, reales y personales, con fines fiscales y extrafiscales, así como en federales, estatales y municipales, tal y como veremos a continuación: Los impuestos directos son los pagados por el contribuyente sin intermediarios, mientras que los impuestos indirectos son aquellos que son aplicados en gastos de producción y consumo, en los cuales existe un intermediario entre el contribuyente y la autoridad fiscal. Por otro lado, los impuestos reales afectan a los bienes y servicios sin tomar en cuenta a las personas y los impuestos personales recaen sobre la capacidad contributiva de la persona. Los impuestos con fines fiscales son aquellos que tienen como propósito primordial recaudar ingresos para el gasto público y los extrafiscales, no tienen una finalidad recaudatoria, sino funcionar como herramienta para alcanzar algún otro objetivo. Por último, los impuestos federales, estatales y municipales hacen referencia a la autoridad que los determina y cobra.",
-    8: "En conformidad con el artículo 1° de la Ley del Impuesto al Valor Agregado, están obligadas al pago del impuesto al valor agregado, las personas físicas y las morales que, en territorio nacional, realicen los actos o actividades siguientes: I.- Enajenen bienes. II.- Presten servicios independientes. III.- Otorguen el uso o goce temporal de bienes. IV.- Importen bienes o servicios. Dicho impuesto se calculará aplicando a los valores que señala esta Ley, la tasa del 16%. El impuesto al valor agregado en ningún caso se considerará que forma parte de dichos valores. ",
-    9: "Cuando inicias una actividad económica como asalariado, profesionista, o como dueño de un negocio o emprendedor, ya sea como persona física o moral, lo primero que deberás realizar para cumplir con tus obligaciones fiscales, es inscribirte en el RFC y obtener la Cédula de Identificación Fiscal (CIF). El RFC es una clave alfanumérica que sirve para identificar a todas las personas que realizan una actividad económica y tienen que cumplir las obligaciones fiscales propias de la inscripción. En el caso de personas físicas, lo deben tramitar personas mayores de 18 años y menores de edad a partir de los 16 años. Tratándose de personas físicas sin actividades económicas, la inscripción ante el RFC se realizará bajo el rubro 'Inscripción de personas físicas sin obligaciones fiscales', por lo que no adquirirán la obligación de presentar declaraciones y tampoco les serán aplicables sanciones.",
-    10: "Si eres una persona física o moral y tienes que presentar declaraciones periódicas y/o expedir CFDI por los ingresos que recibas o por las transacciones que realices, o bien, si no tienes dichas obligaciones, pero abriste una cuenta bancaria o de ahorro a tu nombre, en la que recibes depósitos o realizas operaciones que pueden ser sujetas de contribuciones, tienes entre otras obligaciones la de manifestar tu domicilio fiscal ante el SAT.  Para efectos fiscales, debes atender a lo dispuesto en el artículo 10 del CFF, que contempla como domicilio fiscal de las personas físicas los siguientes: • El local en el que se encuentre el principal asiento de tus negocios cuando realices actividades empresariales. • El local que utilices para el desempeño de tus actividades cuando no lleves a cabo actividades empresariales. • Tu casa habitación si no cuentas con un local, con independencia de si realizas o no actividades comerciales.",
-    11: "Cuando las disposiciones fiscales obliguen a presentar documentos, éstos deberán ser digitales y contener tu firma electrónica avanzada, para lo que se requiere un certificado que confirme tu vínculo como firmante y los datos de creación de la firma, mismo que debe ser expedido por el SAT o por una autoridad certificadora tal como lo es la Secretaría de la Función Pública y la Secretaría de Economía. Actualmente, en materia fiscal, la firma electrónica avanzada es conocida como e.firma, y ésta se compone por una contraseña y tres archivos: CER: Certificado, KEY: Llave privada y REQ: Requerimiento.",
-    12: "La constancia de situación fiscal es un documento que contiene tus datos de identidad como ubicación y características fiscales, tales como el RFC, el nombre completo del contribuyente, la CURP, el domicilio fiscal, el régimen fiscal y las obligaciones fiscales propias de la inscripción. Actualmente, puede ser un requisito de contratación, ya que los empleadores solicitan una constancia de situación fiscal para asegurarse de que estás inscrito en el RFC y así corroborar que los datos que estás proporcionando son correctos."
-  };
+    1: "./nivel 1.png" ,
+    2: "./nivel 2.png" ,
+    3: "./nivel 3.png" ,
+    4: "./nivel 4.png ",
+    5: "./nivel 5.png ",
+    6: "./nivel 6.png ",
+    7: "./nivel 7.png ",  
+    8: "./nivel 8.png ",
+ // 9: "./nivel 9.png ",
+    10: "./nivel 10.png ",
+    11: "./nivel 11.png ",
+    12: "./nivel 12.png "
+    };
 
   // 🔹 Inserta el texto específico del nivel
-  document.getElementById("textoLectura").textContent = textosLectura[n] || "Texto de lectura no disponible.";
+  document.getElementById("textoLectura").src= textosLectura[n] || "Texto de lectura no disponible.";
 }
 
 // 🔹 Pasar a las preguntas

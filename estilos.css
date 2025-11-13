@@ -321,8 +321,8 @@ pointer-events: all;
 .imagen-niveles {
   position: absolute;
   bottom: 0%;
-  top: 75%;
-  right: 5%;
+  top: 40%;
+  right: 14%;
   width: calc(100% - 80%);      /* ajusta el tamaño si lo deseas */
   opacity: 0.85;     /* ligera transparencia */
   z-index: 900;      /* para que quede sobre el fondo */
@@ -445,32 +445,4 @@ pointer-events: all;
 
 #btnVolverMenuFinal:hover {
   background-color: #1E2E3C;
-}
-
-@media (min-width: 424px) {
-  .imagen-niveles {
-   top: calc(75% - 100% / 50);
-  }
-  #pantallaLectura{
-    margin: 120px auto;
-  }
-  #pantallaPreguntas{
-    margin: 120px auto;
-  }
-  main{
-    margin: 80px auto;
-  }
-  
-  
-  
-
-}
-@media (min-width: 766px) {
-  .imagen-niveles {
-    top: calc(75% - 100% / 890);
-  }
-  main{
-    margin: 140px auto;
-  }
- 
 }
