@@ -196,7 +196,7 @@ function abrirNivel(n) {
     6: "./nivel 6.png ",
     7: "./nivel 7.png ",  
     8: "./nivel 8.png ",
-    9: "./nivel 9.png ",
+    9: "./nivel 9.png",
     10: "./nivel 10.png ",
     11: "./nivel 12.png ",
     12: "./nivel 11.png "
@@ -437,5 +437,6 @@ function mostrarTema(tema) {
   contenido.innerHTML = html ;
   contenedor.style.display = "flex";
 }
+
 
 
