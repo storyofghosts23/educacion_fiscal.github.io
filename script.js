@@ -146,7 +146,7 @@ const preguntasPorNivel = {
        pregunta: "La constancia de situación fiscal contiene características fiscales tales como:",
        opciones: ["RFC, nombre del contribuyente, situación sentimental, CURP y domicilio fiscal",
           "CURP, domicilio fiscal, RFC, nombre del contribuyente, escolaridad y régimen fiscal ", 
-          "Régimen fiscal, obligaciones fiscals, RFC, CURP y domicilio fiscal "],
+          "Régimen fiscal, obligaciones fiscales, RFC, CURP y domicilio fiscal "],
           img: "./tipo feliz con estrellas al redeakdaod si.png",
        correcta:3, //respuesta correcta   
        explicacionCorrecta: "✅ Exacto, ya que las características fiscales que incluye la constancia de situación fiscal son el RFC, el nombre completo del contribuyente, la CURP, el domicilio fiscal, el régimen fiscal y las obligaciones fiscales propias de la inscripción ",
@@ -198,8 +198,8 @@ function abrirNivel(n) {
     8: "./nivel 8.png ",
     9: "./nivel 9.png ",
     10: "./nivel 10.png ",
-    11: "./nivel 11.png ",
-    12: "./nivel 12.png "
+    11: "./nivel 12.png ",
+    12: "./nivel 11.png "
     };
 
   // 🔹 Inserta el texto específico del nivel
@@ -437,4 +437,5 @@ function mostrarTema(tema) {
   contenido.innerHTML = html ;
   contenedor.style.display = "flex";
 }
+
 
